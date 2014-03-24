@@ -1,0 +1,9 @@
+﻿<Window x:Class="JHCSplf.Display"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Display" Height="300" Width="300">
+    <Grid>
+        <DocumentViewer x:Name="viewer" />
+        <!--<TextBlock Text="{Binding FileContent}" TextWrapping="Wrap" MaxWidth="{Binding ActualWidth, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" ScrollViewer.VerticalScrollBarVisibility="Auto" />-->
+    </Grid>
+</Window>
